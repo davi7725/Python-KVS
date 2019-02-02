@@ -21,6 +21,5 @@
 
 	NB! If you have *Windows*, replace **$(pwd)** with the path to the directory of the repository
 1. Then run the following command
-`docker run -it --rm -v $(pwd):/src -w /src py
-thon sh -c "python3 ClientReader.py"`
+`docker run -it --rm -v $(pwd):/src -w /src python sh -c "python3 ClientReader.py"`
 	-  Now the ClientReader.py file will be run, and it reads from the previous database file and prints all the stored records.
